@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    color: #616575;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #5b5f97;
+
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 30px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 50%;
+    text-align: center;
+}
+
+p {
+    margin: 20px 0;
+    line-height: 20px;
+}
+
+.navbar {
+    background-color: white;
+    padding: 30px;
+}
+
+.navbar a {
+    text-underline-offset: 6px;
+    transition: 0.5s;
+    color: #5b5f97;
+}
+
+.navbar a:hover {
+    text-decoration: underline 1px #5b5f97;
+}
+
+.navbar ul {
+    justify-content: right;
+
+}
+
+.navbar li {
+    margin: 5px;
+
+}
+
+/* hr {
+    background-color: rgb(183, 183, 183);
+    height: 0.10px;
+} */
+
+.flex-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal {
+    height: 80vh;
+}
+
+.contenedor {
+    margin: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.imagen-lidia {
+    margin-top: 80px;
+    width: 40%;
+    height: 20%;
+}
+
+.info {
+    width: 50%;
+    margin: 20px;
+}
+
+.footer {
+    height: 20vh;
+    padding-left: 20px;
+    background-color: #273469;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* .footer {
+    height: 20vh;
+    padding-left: 20px;
+    background-color: rgb(166, 165, 168);
+} */
+
+.footer nav {
+    /* height: 80%; */
+    padding-top: 20px;
+}
+
+.footer a {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.fa-envelope,
+.fa-linkedin {
+    font-size: 24px;
+    margin: 10px 20px 0 6px;
+    color: white;
+}
+
+.cv {
+    color: white;
+}
+
+.fa-envelope,
+.fa-linkedin {
+    font-size: 24px;
+    transition: 0.3s;
+}
+
+.fa-envelope:hover,
+.fa-linkedin:hover,
+.footer a:hover {
+    transform: scale(1.5);
+}
