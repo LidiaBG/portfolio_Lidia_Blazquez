@@ -38,13 +38,15 @@ h3 {
 
 li {
     margin: 10px 20px;
+
 }
+
 
 /* p {
     margin: 20px 20px;
-    text-align: justify;
+    text-align: center;
     line-height: 22px;
-    width: 70%;
+
 } */
 
 .centrar-parrafo {
@@ -56,7 +58,6 @@ li {
 .centrar-parrafo p {
     margin: 20px 20px;
 }
-
 
 .navbar {
     padding: 20px;
@@ -92,36 +93,41 @@ li {
 .logo {
     width: 10%;
     margin-bottom: 12px;
+
 }
 
-.img-pinsapo {
+ul {
+    text-align: center;
+}
+
+.img-wellness {
     width: 20%;
     display: block;
     margin: auto;
+}
+
+.user-persona,
+.hmg {
+    width: 40%;
+    display: block;
+    margin: auto;
+    box-shadow: 3px 3px 6px rgb(218, 218, 218);
+}
+
+.hifi-1,
+.hifi-2 {
+    width: 50%;
+    display: block;
+    margin: auto;
+    box-shadow: 3px 3px 6px rgb(218, 218, 218);
+}
+
+.negrita {
+    font-weight: bold;
 }
 
 .text-underline {
     text-decoration: underline;
-}
-
-.user-persona,
-.canva-crazy-8 {
-    width: 30%;
-    margin: auto;
-    display: block;
-    box-shadow: 3px 3px 6px rgb(218, 218, 218);
-}
-
-.home-pinsapo {
-    width: 20%;
-    margin: 20px;
-    box-shadow: 3px 3px 6px rgb(218, 218, 218);
-}
-
-.img-case-study {
-    width: 40%;
-    margin: 20px;
-    box-shadow: 3px 3px 6px rgb(218, 218, 218);
 }
 
 .footer {
